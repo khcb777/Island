@@ -35,7 +35,7 @@ namespace WorldTime
                     s.Hour == newTime.Hours &&
                     s.Mitute == newTime.Minutes);
 
-            shedule._action?.Invoke();
+            shedule?._action?.Invoke();
         }
 
         [Serializable]
