@@ -44,3 +44,9 @@ TagManager:
   - name: Items
     uniqueID: 663320235
     locked: 0
+  - name: Player
+    uniqueID: 3684401161
+    locked: 0
+  - name: effects
+    uniqueID: 824422133
+    locked: 0

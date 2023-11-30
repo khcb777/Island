@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace InventorySystem
@@ -47,6 +45,13 @@ namespace InventorySystem
         private void AdjustNumberOfItems()
         {
             _stack.NumberOfItems = _stack.NumberOfItems;
+        }
+
+        //Подбор предмета
+        public ItemStack Pick()
+        { 
+            Destroy(gameObject);
+            return _stack;
         }
     }
 }
